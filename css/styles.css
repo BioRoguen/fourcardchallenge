@@ -1,0 +1,175 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+h4 {
+  color: hsl(234, 12%, 34%);
+}
+
+.main-body {
+  box-sizing: inherit;
+  position: relative;
+  margin: 5% 10%;
+  width: 1040px;
+  height: 720px;
+  padding: 0;
+  background-color: hsl(0, 0%, 98%);
+}
+
+
+/* headline */
+
+.header {
+  text-align: center;
+  padding: 1%;
+  color: hsl(234, 12%, 34%);
+}
+
+.header h2 {
+  font-weight: 200;
+  font-size 2rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.header p {
+  color: hsl(229, 6%, 66%);
+  position: relative;
+  left: 25%;
+  text-align: center;
+  width: 50%;
+}
+
+/* cards */
+img {
+  position: relative;
+  left: 75%;
+}
+
+.card-body {
+  width: 18rem;
+  border-top: 5px solid;
+  margin: 0;
+}
+
+.card1 {
+  background-color: white;
+  border-top-color: cyan;
+  left: 5%;
+  top: 45%;
+  position: absolute;
+}
+
+.card2 {
+  background-color: white;
+  border-top-color: red;
+  left: 35%;
+  top: 25%;
+  position: absolute;
+}
+
+.card3 {
+  background-color: white;
+  border-top-color: orange;
+  position: absolute;
+  left: 35%;
+  top: 65%;
+}
+
+.card4 {
+  background-color: white;
+  border-top-color: blue;
+  position: absolute;
+  right: 5%;
+  top: 45%;
+}
+/* footer */
+
+footer {
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* media type: Tablet */
+
+@media (max-width: 1024px) {
+  .main-body {
+    box-sizing: inherit;
+    position: relative;
+    margin: 5% 10%;
+    background-color: hsl(0, 0%, 98%);
+  }
+
+
+  /* headline */
+
+  .header {
+    text-align: center;
+    padding: 1%;
+    color: hsl(234, 12%, 34%);
+  }
+
+  .header h2 {
+    font-weight: 200;
+    font-size 2rem;
+    color: hsl(229, 6%, 66%);
+  }
+
+  .header p {
+    color: hsl(229, 6%, 66%);
+    position: relative;
+    left: 25%;
+    text-align: center;
+    width: 50%;
+  }
+
+  /* cards */
+  img {
+    position: relative;
+    left: 75%;
+  }
+
+  .card-body {
+    width: 18rem;
+    border-top: 5px solid;
+    margin: 0;
+  }
+
+  .card1 {
+    background-color: white;
+    border-top-color: cyan;
+  }
+
+  .card2 {
+    background-color: white;
+    border-top-color: red;
+  }
+
+  .card3 {
+    background-color: white;
+    border-top-color: orange;
+  }
+
+  .card4 {
+    background-color: white;
+    border-top-color: blue;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
